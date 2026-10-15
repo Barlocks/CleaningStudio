@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(fonts/Montserrat-Medium.woff2);
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(fonts/Montserrat-Bold.woff2);
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(fonts/Montserrat-Regular.woff2);
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+html{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* Навигационное меню */
+.nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    justify-content: space-between;
+}
+.nav__logo{
+   width: 160px;
+}
+.nav__list{
+    display: flex;
+    gap: 50px;
+}
+.nav__link{
+    color: #4fc3f7;
+    font-family: 'Montserrat-Medium';
+}
+.auth{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.auth__btn{
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 24px;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    border-radius: 8px;
+}
+.auth__btn--login{
+    border: 2px solid #4fc3f7;
+    background: #fff;
+    color: #4fc3f7;
+}
+.auth__btn--register{
+    border: 2px solid #0d3b66;
+    background: #0d3b66;
+    color: #fff;
+}
+/* Первый экран */
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: 620px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 120px;
+    gap: 20px;
+}
+.hero__sofa{
+    width: 1090px;
+    height: 620px;
+}
+.hero__text{
+    color: #0d3b66;
+    font-family: 'Montserrat-Bold';
+    font-size: 64px;
+}
+.hero__text-small{
+    color: #4fc3f7;
+    font-family: 'Montserrat-Regular';
+    font-size: 32px;
+}
+.hero__btn{
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 24px;
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    border-radius: 8px;
+}
+.hero__btn--order{
+    border: 2px solid #0d3b66;
+    background: #0d3b66;
+    color: #fff;
+}
+.hero__btn--servis{
+    color: #4fc3f7;
+    background: #fff;
+    border: none;
+}
