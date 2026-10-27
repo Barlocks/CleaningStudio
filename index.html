@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
@@ -12,14 +13,14 @@
         <section class="nav">
           <img class="nav__logo" src="Photo/logo.png" alt="Logo">
           <ul class="nav__list">
-            <li><a class="nav__link" href="">Главная</a></li>
-            <li><a class="nav__link" href="">Услуги</a></li>
-            <li><a class="nav__link" href="">О нас</a></li>
-            <li><a class="nav__link" href="">Контакты</a></li>
+            <li><a class="nav__link" href="index.html">Главная</a></li>
+            <li><a class="nav__link" href="#order">Услуги</a></li>
+            <li><a class="nav__link" href="#why-us">О нас</a></li>
+            <li><a class="nav__link" href="#site-footer"">Контакты</a></li>
           </ul>
           <div class="auth">
-          <button class="auth__btn auth__btn--login">Вход</button>
-          <button class="auth__btn auth__btn--register">Регистрация</button>
+          <button onclick="window.location.href='login.html'" class="auth__btn auth__btn--login">Вход</button>
+          <button onclick="window.location.href='register.html'" class="auth__btn auth__btn--register">Регистрация</button>
           </div>
         </section>
       </nav>
@@ -37,7 +38,7 @@
         </div>
         <img class="hero__sofa" src="Photo/hero-sofa.png" alt="sofa">
       </section>
-      <section class="order">
+      <section class="order" id="order">
         <div class="order__content">
           <h1 class="order__text--order">Наши услуги</h2>
           <h2 class="order__text--underorder">Три основных вида уборки для вашего комфорта</h3>
@@ -63,7 +64,7 @@
           </div>
         </div>
       </section>
-      <section class="why-us">
+      <section class="why-us" id="why-us">
         <h1 class="why-us__title">Почему выбирают нас</h1>
         <div class="why-us__container">
         <div class="why-us__content">
@@ -98,13 +99,13 @@
       </section>
     </main>
     <footer>
-      <div class="site-footer">
+      <div class="site-footer" id="site-footer">
          <img class="site-footer__logo" src="Photo/footer-logo.png" alt="Logo">
           <ul class="site-footer__list">
-            <li><a class="site-footer__link" href="">Главная</a></li>
-            <li><a class="site-footer__link" href="">Услуги</a></li>
-            <li><a class="site-footer__link" href="">О нас</a></li>
-            <li><a class="site-footer__link" href="">Контакты</a></li>
+            <li><a class="site-footer__link" href="index.html">Главная</a></li>
+            <li><a class="site-footer__link" href="#order">Услуги</a></li>
+            <li><a class="site-footer__link" href="#why-us">О нас</a></li>
+            <li><a class="site-footer__link" href="#site-footer">Контакты</a></li>
           </ul>
           <div class="link">
             <a href="https://vk.ru/ossatov">

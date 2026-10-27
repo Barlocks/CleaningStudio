@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section class="nav">
+          <img class="nav__logo" src="Photo/logo.png" alt="Logo">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Главная</a></li>
+            <li><a class="nav__link" href="index.html#order">Услуги</a></li>
+            <li><a class="nav__link" href="index.html#why-us">О нас</a></li>
+            <li><a class="nav__link" href="index.html#site-footer"">Контакты</a></li>
+          </ul>
+          <div class="auth">
+          <button onclick="window.location.href='login.html'" class="auth__btn auth__btn--login">Вход</button>
+          <button onclick="window.location.href='register.html'" class="auth__btn auth__btn--register">Регистрация</button>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main class="page-register">
+      <section class="hero-register">
+        <div class="hero-register__content">
+          <h1 class="hero__text"><b>Создайте<br>свой аккаунт</b></h1>
+          <p class="hero__text-small">Зарегестрируйстесь, чтобы<br>быстро оформлять заказы,<br>отслеживать их статус и получать<br>бонусы и скидки.</p>
+          <div class="register">
+            <div class="register__hello">
+            <h2 class="register__main">Регистрация</h2>
+            <h3 class="register__submain">Заполните данные для создания аккаунта</h3>
+            </div>
+            <form class="register-form">
+              <div class="form-group">
+                    <label for="text">ФИО</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Введите ваше ФИО" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" id="tel" placeholder="+7(123)456-78-90" required >
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Введить ваш email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login">Логин</label>
+                    <input type="login" name="login" id="login" placeholder="Придумайте логин" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" name="password" id="password" placeholder="Придумайте пароль" minlength="6" required>
+                </div>
+                <button class="submit" type="submit">Зарегестрироваться</button>
+            </form>
+          </div>
+        </div>
+      </section>
+        </div>
+    </main>
+    <footer>
+      <div class="site-footer">
+         <img class="site-footer__logo" src="Photo/footer-logo.png" alt="Logo">
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html">Главная</a></li>
+            <li><a class="site-footer__link" href="index.html#order">Услуги</a></li>
+            <li><a class="site-footer__link" href="index.html#why-us">О нас</a></li>
+            <li><a class="site-footer__link" href="index.html#site-footer">Контакты</a></li>
+          </ul>
+          <div class="link">
+            <a href="https://vk.ru/ossatov">
+              <img class="site-footer__photo" src="Photo/vk.png" alt="VK">
+            </a>
+            <a href="https://vk.ru/ossatov">
+              <img class="site-footer__photo" src="Photo/tg.png" alt="TG">
+            </a>
+          </div>
+          
+      </div>
+      <h3 class="site-footer__end">Данный проект выполнен в учебных целях Кукшинским Ратмиром, студентом группы 9-ИС303</h3>
+    </footer>
+  </body>
+</html>
