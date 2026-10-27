@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-page">
+
+    <main class="admin">
+        <h1 class="admin__title">Админ-панель</h1>
+
+        <h2 class="admin__subtitle">Заявки клиентов</h2>
+
+        <div class="admin__table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Клиент</th>
+                        <th>Услуга</th>
+                        <th>Дата</th>
+                        <th>Адрес</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Иван Иваныч</td>
+                        <td>Генеральная уборка</td>
+                        <td>27.11.2026</td>
+                        <td>Улица Пушкина, дом колотушкина</td>
+                        <td>
+                            <select>
+                                <option value="new" selected>Новая</option>
+                                <option value="work">В работе</option>
+                                <option value="done">Завершена</option>
+                                <option value="cancel">Отменена</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Артём Андреич</td>
+                        <td>Поддерживающая уборка</td>
+                        <td>28.11.2026</td>
+                        <td>Улица ленани, дом 32</td>
+                        <td>
+                            <select>
+                                <option value="new">Новая</option>
+                                <option value="work" selected>В работе</option>
+                                <option value="done">Завершена</option>
+                                <option value="cancel">Отменена</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Артём Андреич</td>
+                        <td>Уборка после ремонта</td>
+                        <td>29.11.2026</td>
+                        <td>Улица Гагарина, 20</td>
+                        <td>
+                            <select>
+                                <option value="new">Новая</option>
+                                <option value="work">В работе</option>
+                                <option value="done" selected>Завершена</option>
+                                <option value="cancel">Отменена</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Артём Андреич</td>
+                        <td>Мойка окон</td>
+                        <td>30.11.2026</td>
+                        <td>Улица Советская, 8</td>
+                        <td>
+                            <select>
+                                <option value="new">Новая</option>
+                                <option value="work">В работе</option>
+                                <option value="done">Завершена</option>
+                                <option value="cancel" selected>Отменена</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+</html>

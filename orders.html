@@ -1,0 +1,121 @@
+```html
+<!doctype html>
+<html lang="RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section class="nav">
+          <img class="nav__logo" src="Photo/logo.png" alt="Logo">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Главная</a></li>
+            <li><a class="nav__link" href="index.html#order">Услуги</a></li>
+            <li><a class="nav__link" href="create.html">Cоздать заявку</a></li>
+            <li><a class="nav__link" href="orders.html">Заявки</a></li>
+          </ul>
+          <div class="auth">
+          <button onclick="window.location.href='login.html'" class="auth__btn auth__btn--login">Вход</button>
+          <button onclick="window.location.href='register.html'" class="auth__btn auth__btn--register">Регистрация</button>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main class="page-orders">
+        <div class="myorders">
+     <h1 class="orders-my">Мои заявки</h1>
+     <button onclick="window.location.href='create.html'" class="order-work">Заказать уборку</button>
+     </div>
+     <div class="order-container">
+        <div class="order-info">
+            <h2 class="order-info__main">Всего</h2>
+            <p class="order-info__submain">4</p>
+        </div>
+        <div class="order-info">
+            <h2 class="order-info__main">В работе</h2>
+            <p class="order-info__submain">1</p>
+        </div>
+        <div class="order-info">
+            <h2 class="order-info__main">Завершено</h2>
+            <p class="order-info__submain">1</p>
+        </div>
+        <div class="allorders">
+            <div class="main-order">
+                <div class="order-text">
+                    <h2 class="main-order__title">Заявка №1</h2>
+                    <p class="main-order__subtitle">Генеральная уборка</p>
+                    <p class="main-order__subtitle">Дата: 27 ноября 2026</p>
+                    <p class="main-order__subtitle">Адрес: Улица и номер дома</p>
+                </div>
+                <div class="order-status">
+                    <span class="status status--new">Новая</span>
+                </div>
+            </div>
+
+            <div class="main-order">
+                <div class="order-text">
+                    <h2 class="main-order__title">Заявка №2</h2>
+                    <p class="main-order__subtitle">Поддерживающая уборка</p>
+                    <p class="main-order__subtitle">Дата: 25 ноября 2026</p>
+                    <p class="main-order__subtitle">Адрес: Улица и номер дома</p>
+                </div>
+                <div class="order-status">
+                    <span class="status status--work">В работе</span>
+                </div>
+            </div>
+
+            <div class="main-order">
+                <div class="order-text">
+                    <h2 class="main-order__title">Заявка №3</h2>
+                    <p class="main-order__subtitle">Уборка после ремонта</p>
+                    <p class="main-order__subtitle">Дата: 20 ноября 2026</p>
+                    <p class="main-order__subtitle">Адрес: Улица и номер дома</p>
+                </div>
+                <div class="order-status">
+                    <span class="status status--done">Завершена</span>
+                </div>
+            </div>
+
+            <div class="main-order">
+                <div class="order-text">
+                    <h2 class="main-order__title">Заявка №4</h2>
+                    <p class="main-order__subtitle">Мойка окон</p>
+                    <p class="main-order__subtitle">Дата: 18 ноября 2026</p>
+                    <p class="main-order__subtitle">Адрес: Улица и номер дома</p>
+                </div>
+                <div class="order-status">
+                    <span class="status status--cancel">Отменена</span>
+                    <p class="main-order__subtitle">Причина отмены: клиент отменил заказ.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    </main>
+    <footer>
+      <div class="site-footer">
+         <img class="site-footer__logo" src="Photo/footer-logo.png" alt="Logo">
+          <ul class="site-footer__list">
+            <li><a class="site-footer__link" href="index.html">Главная</a></li>
+            <li><a class="site-footer__link" href="index.html#order">Услуги</a></li>
+            <li><a class="site-footer__link" href="create.html">Cоздать заявку</a></li>
+            <li><a class="site-footer__link" href="orders.html">Заявки</a></li>
+          </ul>
+          <div class="link">
+            <a href="https://vk.ru/ossatov">
+              <img class="site-footer__photo" src="Photo/vk.png" alt="VK">
+            </a>
+            <a href="https://vk.ru/ossatov">
+              <img class="site-footer__photo" src="Photo/tg.png" alt="TG">
+            </a>
+          </div>
+          
+      </div>
+      <h3 class="site-footer__end">Данный проект выполнен в учебных целях Кукшинским Ратмиром, студентом группы 9-ИС303</h3>
+    </footer>
+  </body>
+</html>
+```
